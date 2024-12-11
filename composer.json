@@ -21,6 +21,11 @@
         "phpstan/phpstan": "^2.0"
     },
     "scripts": {
+        "analyse": [
+            "@fix-php-cs-fixer",
+            "@phpmd",
+            "@phpstan"
+        ],
         "fix-php-cs-fixer": [
             "vendor/bin/php-cs-fixer fix --diff"
         ],
