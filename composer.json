@@ -16,11 +16,15 @@
         "php": "8.3.*"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "3.65.*"
+        "friendsofphp/php-cs-fixer": "3.65.*",
+        "phpmd/phpmd": "^2.15"
     },
     "scripts": {
         "fix-php-cs-fixer": [
             "vendor/bin/php-cs-fixer fix --diff"
+        ],
+        "phpmd": [
+            "php vendor/bin/phpmd src text phpmd.xml"
         ]
     }
 }
