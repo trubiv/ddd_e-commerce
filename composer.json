@@ -12,5 +12,7 @@
             "name": "Ivan Trubchaninov"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "8.3.*"
+    }
 }
