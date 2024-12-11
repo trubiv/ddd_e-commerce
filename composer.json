@@ -1,0 +1,16 @@
+{
+    "name": "trubiv/ecommerce-ddd",
+    "description": "ddd schema for e-commerce service",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Trubchaninov"
+        }
+    ],
+    "require": {}
+}
